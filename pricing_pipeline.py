@@ -1481,20 +1481,3 @@ print("     → Simple mean of price_per_kg_usd is NEVER used for any reported m
 print("     → FX-normalized VWAP (all Toman at last_fx) available in top_products")
 print("        as 'vwap_price_fx_normalized' for period-over-period trend analysis.")
 print()
-
-# ── For Jupyter notebook usage ───────────────────────────────────────────────
-# If running in notebook, you can access any result via the results dict:
-#
-#   results['optimal_prices']              # Full optimal pricing table
-#   results['fx_forecast_12m']             # 12-month FX forecast scenarios
-#   results['elasticity_by_group']         # Price elasticities per product group
-#   results['monthly_analytics']           # Monthly revenue time series
-#   results['country_performance']         # Country-level performance metrics
-#   results['business_kpis']               # High-level KPI summary
-#   results['pricing_actions']             # Recommended pricing actions
-#   ... and more
-#
-# Example notebook cell:
-#   import pandas as pd
-#   pd.options.display.max_columns = None
-#   results['optimal_prices'].head(20)

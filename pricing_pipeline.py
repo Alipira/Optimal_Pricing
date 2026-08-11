@@ -449,7 +449,7 @@ print("    ✅ Monthly and country aggregations ready (revenue-weighted FX, VWAP
 # ══════════════════════════════════════════════════════════════════════════════
 print("\n🎨  [8/9] Generating analytical charts ...")
 
-# ── Professional colour palette ──
+# ── colour palette ──
 C = {
     'primary': '#1B2A4A', 'accent':  '#E63946', 'green':  '#2DC653',
     'gold':    '#FFB703', 'light':   '#F8F9FA', 'gray':   '#6C757D',

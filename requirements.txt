@@ -1,0 +1,9 @@
+pandas
+numpy
+scipy
+statsmodels
+arch
+matplotlib
+seaborn
+xlsxwriter
+openpyxl
